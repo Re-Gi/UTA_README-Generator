@@ -36,6 +36,12 @@ inquirer.prompt([
         name: 'tests',
     },
     {
+        type: 'list',
+        message: 'Which license are you using? ',
+        name: 'license',
+        choices: [],
+    },
+    {
         type: 'input',
         message: 'What is your GitHub username? ',
         name: 'github',
