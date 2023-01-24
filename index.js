@@ -39,7 +39,7 @@ inquirer.prompt([
         type: 'list',
         message: 'Which license are you using? ',
         name: 'license',
-        choices: [],
+        choices: ['apache_2.0', 'gpl_3.0', 'MIT', 'lgpl_2.1', {name: 'none of the above', value: ''}],
     },
     {
         type: 'input',
@@ -64,7 +64,7 @@ inquirer.prompt([
 })
 
 // TODO: Create a function to initialize app
-function init() {}
+// function init() {}
 
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
