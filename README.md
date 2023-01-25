@@ -10,7 +10,7 @@
   Once the dependencies are installed, the user must enter the command `node index.js` to start the application. For each question, the user must either type out their answer or select from a list. Once every question has been answered, the terminal logs 'Success!' and the new README.md file will be generated within that same folder.
 
   ## Demo
-  ![Aplication demo video](https://drive.google.com/file/d/107-le9imtl6XaYVi6nVVvFBsUbMiYwmC/view)
+  ![Aplication demo video](https://drive.google.com/file/d/107-le9imtl6XaYVi6nVVvFBsUbMiYwmC/view?usp=sharing)
   
   ## License 
   This project is covered under the MIT license.
