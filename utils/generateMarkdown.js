@@ -49,9 +49,7 @@ function generateMarkdown({title, description, installation, usage, contribution
   ## Questions
   ${questions}
   
-  Visit my GitHub: [${github}](https://github.com/${github})
-  
-  Send me an email at: ${email}
+  Visit my GitHub: [${github}](https://github.com/${github})  Send me an email: ${email}
   
 `;
 }
