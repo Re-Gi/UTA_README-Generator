@@ -59,6 +59,6 @@ inquirer.prompt([
   ])
   // TODO: Create a function to write README file
   .then((response) => {
-    fs.writeFile('./sample/README.md', generateMarkdown(response), (err) =>
+    fs.writeFile('README.md', generateMarkdown(response), (err) =>
         err ? console.log(err) : console.log('Success!'))
 });
